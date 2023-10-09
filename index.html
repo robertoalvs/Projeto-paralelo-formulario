@@ -50,43 +50,51 @@
 
                     </div>
 
-                    <div id="account">
+                    <div class="paralax">
 
-                        <fieldset>
+                        <div id="account">
 
-                            <legend>ENDEREÇO</legend>
+                            <fieldset>
 
-                            <label for="istreet">Street Address:</label>
-                            <input class="input-size" type="text" name="address" id="iaddress" autocomplete="street-address" required placeholder="endereço ">
+                                <legend>ENDEREÇO</legend>
 
-                            <br>
+                                <label for="istreet">Street Address:</label>
 
-                            <label for="icity">City:</label>
-                            <input class="input-size" type="text" name="city" id="icity" required placeholder="cidade" autocomplete="country">
+                                <input class="input-size" type="text" name="address" id="iaddress" autocomplete="street-address" required placeholder="endereço ">
 
-                            <br>
+                                <br>
 
-                            <label for="iestado">State</label>
-                            <select name="estado" id="iestado" required autocomplete="country-name">
+                                <label for="icity">City:</label>
 
-                                <optgroup label="Região Sudeste">
+                                <input class="input-size" type="text" name="city" id="icity" required placeholder="cidade" autocomplete="country">
 
-                                    <option value="" selected >---- Escolher ----</option>
+                                <br>
 
-                                    <option value="SC">Santa Catarina</option>
-                                    <option value="SP">São Paulo</option>
-                                    <option value="RJ">Rio de Janeiro</option>
+                                <label for="iestado">State</label>
 
-                                </optgroup>
+                                <select name="estado" id="iestado" required autocomplete="country-name">
 
-                            </select>
+                                    <optgroup label="Região Sudeste">
 
-                            <br>
-                            
-                            <label for="izip">CEP</label>
-                            <input class="input-size size" type="number" name="zip" id="izip" required placeholder="xxxxx-xxx" autocomplete="postal-code">
+                                        <option value="" selected >---- Escolher ----</option>
 
-                        </fieldset>
+                                        <option value="SC">Santa Catarina</option>
+
+                                        <option value="SP">São Paulo</option>
+
+                                        <option value="RJ">Rio de Janeiro</option>
+
+                                    </optgroup>
+
+                                </select>
+
+                                <br>
+                        
+                                <label for="izip">CEP</label>
+                                <input class="input-size size" type="number" name="zip" id="izip" required placeholder="xxxxx-xxx" autocomplete="postal-code">
+                            </fieldset>
+
+                        </div>
 
                     </div>
 
@@ -124,19 +132,23 @@
 
                     </div>
 
-                    <div id="account" >
+                    <div class="paralax">
 
-                        <fieldset>
+                        <div id="account" >
 
-                            <legend>EMAILS</legend>
+                            <fieldset>
 
-                            <label class="check-box" for="ipromo"><input type="checkbox" name="promo" id="ipromo">  It is okay to email me with messages from other users.</label>
+                                <legend>EMAILS</legend>
 
-                            <br>
+                                <label class="check-box" for="ipromo"><input type="checkbox" name="promo" id="ipromo">  It is okay to email me with messages from other users.</label>
 
-                            <label class="check-box" for="ipromocao"><input type="checkbox" name="promocao" id="ipromocao">  It is okay to email me with occasional promotions about our other products</label>
-                            
-                        </fieldset>
+                                <br>
+
+                                <label class="check-box" for="ipromocao"><input type="checkbox" name="promocao" id="ipromocao">  It is okay to email me with occasional promotions about our other products</label>
+                        
+                            </fieldset>
+
+                        </div>
 
                     </div>
 
@@ -150,6 +162,12 @@
                     </div>
 
                 </form>
+
+                <footer>
+
+                        <p>Formulário criado por <strong>Roberto Alves</strong></p>
+
+                </footer>
 
             </main>
 </body>

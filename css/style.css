@@ -12,7 +12,6 @@
 body {
 
     background-image: url(../abstract-background-6m6cjbifu3zpfv84.jpg);
-    background-attachment: fixed;
 }
 
 main {
@@ -42,6 +41,17 @@ div {
     margin-bottom: 20px;
     border-radius: 5px;
     border: 0.1px solid rgba(0, 0, 0, 0.11);
+}
+
+.paralax {
+
+    
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(../pngtree.jpg);
+    background-size: cover;
+    border-radius: 0px;
+    
 }
 
 div:hover {
@@ -141,5 +151,16 @@ select {
     border-radius: 5px;
     background-color: rgba(255, 160, 122, 0.562);
     font-weight: bold;
+}
+
+footer {
+
+    text-align: center;
+    border-radius: 20px ;
+    border: 1px solid rgba(255, 166, 0, 0.37);
+    width: 90%;
+    margin: auto;
+    padding: 7px;
+    
 }
 
